@@ -25,7 +25,7 @@ public class StepDefinition {
 	}
 	@When("^the displayed items are within the price range \"([^\"]*)\" - \"([^\"]*)\"$")
 	public void the_displayed_items_are_within_the_price_range(String pricefrom, String priceto) {
-	   
+	   womentabs.displayedItembetweenpricerange(pricefrom, priceto);
 	}
 	@When("^I add any \"([^\"]*)\" items to shopping cart$")
 	public void i_add_any_items_to_shopping_cart(String No) {

@@ -85,7 +85,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6717635557,
+  "duration": 7769987105,
   "status": "passed"
 });
 formatter.background({
@@ -104,7 +104,7 @@ formatter.match({
   "location": "StepDefinition.i_am_on_the_home_page()"
 });
 formatter.result({
-  "duration": 102224975,
+  "duration": 118517211,
   "status": "passed"
 });
 formatter.scenario({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "StepDefinition.i_click_on_WOMEN_tabs_and_select_Size(String)"
 });
 formatter.result({
-  "duration": 2377269958,
+  "duration": 3359017066,
   "status": "passed"
 });
 formatter.match({
@@ -200,7 +200,7 @@ formatter.match({
   "location": "StepDefinition.i_set_the_price_range_between_using_the_slider(String,String)"
 });
 formatter.result({
-  "duration": 467298494,
+  "duration": 543172784,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +217,7 @@ formatter.match({
   "location": "StepDefinition.the_displayed_items_are_within_the_price_range(String,String)"
 });
 formatter.result({
-  "duration": 64434,
+  "duration": 292704859,
   "status": "passed"
 });
 formatter.match({
@@ -230,8 +230,8 @@ formatter.match({
   "location": "StepDefinition.i_add_any_items_to_shopping_cart(String)"
 });
 formatter.result({
-  "duration": 352328540,
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: Element \u003cspan class\u003d\"cross\"\u003e could not be scrolled into view\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ERSGHAIG\u0027, ip: \u0027192.168.42.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_192\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17984, moz:profile: C:\\Users\\BharatP\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e0699b67-e330-4bf4-ae3f-970c7492358c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat AutomationTest.BrightTalkTest.Utils.clickOnElement(Utils.java:21)\r\n\tat AutomationTest.BrightTalkTest.WomenTabs.layercartclose(WomenTabs.java:58)\r\n\tat AutomationTest.BrightTalkTest.StepDefinition.i_add_any_items_to_shopping_cart(StepDefinition.java:33)\r\n\tat ✽.And I add any \"2\" items to shopping cart(src/test/java/automation.feature:12)\r\n",
+  "duration": 465646605,
+  "error_message": "org.openqa.selenium.WebDriverException: TypeError: rect is undefined\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ERSGHAIG\u0027, ip: \u0027192.168.42.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5588, moz:profile: C:\\Users\\BharatP\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 904340bd-3360-4c67-b47a-b7f9e4cfac97\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat AutomationTest.BrightTalkTest.WomenTabs.layercartclose(WomenTabs.java:67)\r\n\tat AutomationTest.BrightTalkTest.StepDefinition.i_add_any_items_to_shopping_cart(StepDefinition.java:33)\r\n\tat ✽.And I add any \"2\" items to shopping cart(src/test/java/automation.feature:12)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -259,7 +259,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 174791496,
+  "duration": 201427570,
   "status": "passed"
 });
 });
